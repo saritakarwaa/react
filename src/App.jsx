@@ -8,6 +8,7 @@ import ReducerHook from './components/reducer'
 import EffectHook from './components/EffectHook'
 import RefHook from './components/RefHook'
 import LoadMoreData from './components/loadMoreButton'
+import GithubProfileFinder from './components/githubProfiles/GithubProfileFinder'
 
 function App() {
   
@@ -43,8 +44,12 @@ function App() {
     //   <RefHook />
     // </div>
 
+    // <div>
+    //   <LoadMoreData/>
+    // </div>
+
     <div>
-      <LoadMoreData/>
+      <GithubProfileFinder />
     </div>
 
   )
