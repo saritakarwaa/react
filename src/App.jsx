@@ -9,7 +9,9 @@ import EffectHook from './components/EffectHook'
 import RefHook from './components/RefHook'
 import LoadMoreData from './components/loadMoreButton'
 import GithubProfileFinder from './components/githubProfiles/GithubProfileFinder'
-
+import ImageSlider from './components/imageSlider'
+import SearchAutoComplete from './components/Search Autocomplete/SearchAutoComplete'
+import ToggleTheme from './components/ToggleTheme/ToggleTheme'
 function App() {
   
 
@@ -18,7 +20,9 @@ function App() {
     //   <Index />
     // </div>
 
-    
+    // <div>
+    //   <ImageSlider/>
+    // </div>
     // <div style={{ textAlign: 'center', marginTop: '100px' }}>
     //         <h1>Rate This Product</h1>
     //         <StarRating totalStars={5} />
@@ -48,10 +52,17 @@ function App() {
     //   <LoadMoreData/>
     // </div>
 
-    <div>
-      <GithubProfileFinder />
-    </div>
+    // <div>
+    //   <GithubProfileFinder />
+    // </div>
 
+    // <div>
+    //   <SearchAutoComplete />
+    // </div>
+
+    <div>
+      <ToggleTheme></ToggleTheme>
+    </div>
   )
 }
 
